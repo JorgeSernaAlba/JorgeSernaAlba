@@ -17,6 +17,15 @@ img {
 iframe {
   width: 100%;
 }
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+}
 
 .yellow {
   color: #ffb100;
@@ -211,9 +220,7 @@ iframe {
   text-decoration: none;
   transition: all 0.3s;
 }
-.list ul li a.active {
-  color: #ffb100;
-}
+.list ul li a.active,
 .list ul li a:hover {
   color: #ffb100;
 }
@@ -255,6 +262,26 @@ iframe {
 .google_map {
   margin-bottom: 40px;
 }
+.contact-form .btn {
+  padding: 15px 22px;
+
+  border-color: #ffb100;
+  display: inline-block;
+  border-radius: 0%;
+
+  font-size: 10px;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-width: 1px;
+  border-style: solid;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);
+}
+.contact-form .btn:hover {
+  background: #ffb100;
+}
+
 .info-item {
   position: relative;
 }
