@@ -194,3 +194,20 @@ img {
 .list ul li a:hover {
   color: #ffb100;
 }
+
+.portfolio-item {
+  position: relative;
+}
+
+.portfolio-item img {
+}
+.portfolio-item .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  background: #fff;
+  width: calc(100% - 20px);
+  padding: 20px;
+  text-align: center;
+}
