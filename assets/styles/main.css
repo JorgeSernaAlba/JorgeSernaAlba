@@ -187,6 +187,7 @@ img {
 .list ul li a {
   color: #000;
   text-decoration: none;
+  transition: all 0.3s;
 }
 .list ul li a.active {
   color: #ffb100;
@@ -197,6 +198,7 @@ img {
 
 .portfolio-item {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .portfolio-item img {
@@ -210,4 +212,19 @@ img {
   width: calc(100% - 20px);
   padding: 20px;
   text-align: center;
+  transform: scale(0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.portfolio-item:hover .caption {
+  transform: scale(1);
+}
+.portfolio-item .caption h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.portfolio-item .caption p {
+  margin: 0;
+  color: #ffb100;
 }
