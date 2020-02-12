@@ -230,8 +230,6 @@ textarea {
   margin-bottom: 30px;
 }
 
-.portfolio-item img {
-}
 .portfolio-item .caption {
   position: absolute;
   bottom: 0;
@@ -298,4 +296,24 @@ textarea {
 }
 .info-item div {
   margin-left: 70px;
+}
+/******************************/
+/* 3.4 About Me */
+.img-fluid {
+  border-radius: 4%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
+}
+.about_me ul {
+  list-style: none;
+}
+.about_me span {
+  color: #ffb100;
+  margin-right: 13px;
+}
+.about_me li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+  position: relative;
+  margin-bottom: 15px;
 }
