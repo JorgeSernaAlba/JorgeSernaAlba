@@ -370,3 +370,41 @@ textarea {
 .card {
   margin-bottom: 40px;
 }
+.testi-content {
+  padding: 25px 25px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.fun-facts .card-body {
+  text-align: center;
+  padding: 35px 0;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-top: 1px solid rgba(153, 153, 153, 0.2);
+  border-left: 1px solid rgba(153, 153, 153, 0.2);
+  border-right: 1px solid rgba(153, 153, 153, 0.2);
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.04);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #ffb100;
+}
+.icons {
+  color: #ffb100;
+  font-size: 30px;
+}
+10px .fun-facts h5 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.fun-facts h6 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.testi-content img {
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 4px;
+}
