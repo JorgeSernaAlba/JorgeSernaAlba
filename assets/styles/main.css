@@ -321,6 +321,9 @@ textarea {
   color: #999;
   font-weight: 400;
 }
+.testimonials {
+  margin-bottom: 60px;
+}
 
 .about_me ul {
   list-style: none;
@@ -392,7 +395,7 @@ textarea {
   color: #ffb100;
   font-size: 30px;
 }
-10px .fun-facts h5 {
+.fun-facts h5 {
   font-size: 25px;
   font-weight: 600;
 }
@@ -407,4 +410,50 @@ textarea {
   position: absolute;
   margin-top: 20px;
   margin-left: 4px;
+}
+.testi-content h5 {
+  margin-top: 35px;
+  color: #2b2b2b;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Poppins, Arial, sans-serif;
+}
+.testi-content h6 {
+  margin-top: 4px;
+
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Poppins, Arial, sans-serif;
+  color: #ffb100;
+}
+.testi-content h5 h6 {
+  display: inline-block;
+}
+
+/******************************/
+/* 3.5 My Resume*/
+.timeline .subtitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.timeline .date {
+  color: #ffb100;
+  font-size: 16px;
+  font-weight: 700;
+}
+.timeline h4 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 11px;
+  font-family: "Montserrat", sans-serif;
+}
+.timeline p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 25px;
+  color: #999;
+  font-weight: 400;
+  font-family: "poppins";
 }
