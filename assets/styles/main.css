@@ -432,6 +432,47 @@ textarea {
 
 /******************************/
 /* 3.5 My Resume*/
+
+.timeline-container {
+  position: relative;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.timeline-container:before {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #ffb100;
+  left: 0;
+  display: block;
+  top: 0;
+}
+.timeline-item {
+  position: relative;
+}
+.timeline-item:before {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: #ffb100;
+  left: -10px;
+  display: block;
+  top: 30px;
+}
+.timeline-item:after {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ffb100;
+  left: -15px;
+  display: block;
+  top: 26px;
+  transform: rotate(45deg);
+}
+
 .timeline .subtitle {
   margin-bottom: 20px;
   font-weight: 700;
