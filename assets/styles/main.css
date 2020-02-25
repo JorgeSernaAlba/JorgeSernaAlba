@@ -503,3 +503,21 @@ textarea {
   font-weight: 400;
   font-family: "poppins";
 }
+
+/******************************/
+/* 3.5  Progress bars*/
+.skills {
+}
+.skill .name {
+  float: left;
+}
+.skill .percentage {
+  float: right;
+}
+.progress {
+  width: 100%;
+  background: #fafafa;
+}
+.progress .value {
+  background: #ffb100;
+}
