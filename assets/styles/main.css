@@ -89,6 +89,21 @@ textarea {
 
 /* 2. skeleton */
 /******************************/
+.mobile-header {
+  display: none;
+}
+.mobile-header .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .mobile-header {
+    display: block;
+  }
+}
+
+/*sidebar*/
 .sidebar {
   padding: 70px 20px;
   background: #000;
@@ -141,10 +156,29 @@ textarea {
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
+
+@media (max-width: 991px) {
+  .sidebar {
+    right: 0;
+    display: none;
+  }
+  .sidebar.show-sidebar {
+    display: block;
+  }
+}
+
+/*main content*/
 .main-content {
   background: transparent;
   width: calc(100% - 250px);
   margin-left: 250px;
+}
+/*RESPONSIVE: max width 991px*/
+@media (max-width: 991px) {
+  .main-content {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 /* 3. components/sections */
