@@ -263,6 +263,9 @@ textarea {
   position: relative;
   margin-bottom: 30px;
 }
+.portfolio-item img {
+  width: 100%;
+}
 
 .portfolio-item .caption {
   position: absolute;
