@@ -373,11 +373,7 @@ textarea {
 .card {
   margin-bottom: 40px;
 }
-.testi-content {
-  padding: 25px 25px;
-  padding-bottom: 30px;
-  position: relative;
-}
+
 .fun-facts .card-body {
   text-align: center;
   padding: 35px 0;
@@ -404,12 +400,24 @@ textarea {
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
+
+/******************************/
+/* 3.5 testimonials*/
+.testi-content {
+  padding: 25px 25px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.testi-content .person {
+  padding-left: 75px;
+  position: relative;
+}
 .testi-content img {
   width: 60px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 20px;
-  margin-left: 4px;
+  left: 0;
+  top: 0;
 }
 .testi-content h5 {
   margin-top: 35px;
@@ -425,9 +433,6 @@ textarea {
   font-weight: 400;
   font-family: Poppins, Arial, sans-serif;
   color: #ffb100;
-}
-.testi-content h5 h6 {
-  display: inline-block;
 }
 
 /******************************/
