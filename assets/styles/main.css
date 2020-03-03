@@ -470,7 +470,11 @@ textarea {
   font-family: Poppins, Arial, sans-serif;
   color: #ffb100;
 }
-
+.testimonials .btn:hover {
+  border-color: #ffb100;
+  background: transparent;
+  color: #ffb100;
+}
 /******************************/
 /* 3.5 My Resume*/
 
