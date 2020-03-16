@@ -23,27 +23,30 @@ $(document).ready(function() {
   // h = "pt-page-moveFromLeft pt-page-ontop"
   //animaciones sidebar nav
 
-  var arrayDeAnimaciones = ["pt-page-moveFromLeft", "pt-page-moveFromLeftEasing"];
+  var arrayDeAnimaciones = ["pt-page-moveFromLeft", "pt-page-scaleUp", "pt-page-rotateUnfoldRight"];
   var contador = 0;
 
   $(".sidebar ul a").click(function() {
-    //esto es el valor de href del sidebar link que has clickado
-    var href = $(this).attr("href");
-
-    var allSections = $("section");
-    allSections.removeClass("pt-page-moveFromLeft");
-    allSections.removeClass("pt-page-moveFromLeftEasing");
-
+    var numeroDeAnimaciones = arrayDeAnimaciones.length; //numero de animaciones del array de arriba
+    var href = $(this).attr("href"); //esto es el valor de href del sidebar link que has clickado
+    var allSections = $("section"); //todos los elementos HTML tipo SECTION
     var currentSection = $(href);
 
-    currentSection.addClass(arrayDeAnimaciones[contador]);
-
-    contador = contador + 1;
-
-    if (contador == 2) {
-      contador = 0;
+    //BORRAMOS TODAS LAS CLASES DE TODAS LAS SECCIONES
+    for (var i = 0; i < numeroDeAnimaciones; i++) {
+      var claseABorrar = arrayDeAnimaciones[i];
+      allSections.removeClass(claseABorrar);
     }
 
-    //while (input !== "quit") {}
+    //añadir la clase que toca
+    currentSection.addClass(arrayDeAnimaciones[contador]);
+
+    //sumo uno al contador para que la siguiente sea distinta
+    contador = contador + 1;
+
+    //si el contador es igual al numero de animaciones lo pongo a 0
+    if (contador == numeroDeAnimaciones) {
+      contador = 0;
+    }
   });
 });
