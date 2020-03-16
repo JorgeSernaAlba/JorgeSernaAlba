@@ -22,12 +22,28 @@ $(document).ready(function() {
   //v = "pt-page-scaleDown",
   // h = "pt-page-moveFromLeft pt-page-ontop"
   //animaciones sidebar nav
+
+  var arrayDeAnimaciones = ["pt-page-moveFromLeft", "pt-page-moveFromLeftEasing"];
+  var contador = 0;
+
   $(".sidebar ul a").click(function() {
     //esto es el valor de href del sidebar link que has clickado
     var href = $(this).attr("href");
 
-    var section = $(href);
-    section.addClass("pt-page-moveFromLeft pt-page-ontop");
-    //section.addClass("pt-page-moveFromLeft pt-page-ontop");
+    var allSections = $("section");
+    allSections.removeClass("pt-page-moveFromLeft");
+    allSections.removeClass("pt-page-moveFromLeftEasing");
+
+    var currentSection = $(href);
+
+    currentSection.addClass(arrayDeAnimaciones[contador]);
+
+    contador = contador + 1;
+
+    if (contador == 2) {
+      contador = 0;
+    }
+
+    //while (input !== "quit") {}
   });
 });
