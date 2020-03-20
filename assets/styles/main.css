@@ -41,12 +41,12 @@ textarea {
 
 .title {
   font-size: 90px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 
   font-weight: 700;
   font-family: "Kaushan Script", cursive;
   text-align: center;
-  margin-bottom: 45px;
 }
 .title span {
   position: relative;
@@ -91,12 +91,30 @@ textarea {
 /******************************/
 .mobile-header {
   display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(95, 95, 95, 0.28);
+  padding: 14px 0;
 }
+.mobile-header h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  margin-left: 14px;
+  font-size: 18px;
+}
+
 .mobile-header .btn {
   position: absolute;
   right: 0;
   top: 0;
+  margin-top: 9px;
+  margin-right: 14px;
 }
+
 @media (max-width: 991px) {
   .mobile-header {
     display: block;
