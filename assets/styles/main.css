@@ -67,10 +67,12 @@ textarea {
 .subtitle {
   font-size: 16px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 .subtitle span {
   position: relative;
   display: inline-block;
+  font-size: 16px;
 }
 .subtitle span:after {
   content: " ";
@@ -407,6 +409,7 @@ textarea {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
   color: #ffb100;
   margin-bottom: 15px;
+  padding-bottom: 20px;
 }
 .card h4 {
   font-size: 16px;
@@ -488,6 +491,7 @@ textarea {
   font-family: Poppins, Arial, sans-serif;
   color: #ffb100;
 }
+
 .testimonials .btn:hover {
   border-color: #ffb100;
   background: transparent;
