@@ -557,6 +557,7 @@ textarea {
   color: #ffb100;
   font-size: 16px;
   font-weight: 700;
+}
 
 .timeline h4 {
   color: #000;
@@ -565,6 +566,7 @@ textarea {
   margin-bottom: 11px;
   font-family: "Montserrat", sans-serif;
 }
+
 .timeline p {
   font-size: 14px;
   margin: 0;
