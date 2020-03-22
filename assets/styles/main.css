@@ -366,6 +366,9 @@ textarea {
 .info-item div {
   margin-left: 70px;
 }
+.info {
+  padding-bottom: 40px;
+}
 /******************************/
 /* 3.4 About Me */
 .intro {
