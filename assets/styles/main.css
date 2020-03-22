@@ -175,6 +175,10 @@ textarea {
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
+.sidebar ul a:hover {
+  background-color: #333;
+  color: #ffb100;
+}
 
 @media (max-width: 991px) {
   .sidebar {
