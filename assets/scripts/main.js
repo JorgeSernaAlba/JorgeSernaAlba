@@ -27,6 +27,7 @@ $(document).ready(function() {
   var contador = 0;
 
   $(".sidebar ul a").click(function() {
+    $(".sidebar").removeClass("show-sidebar");
     var numeroDeAnimaciones = arrayDeAnimaciones.length; //numero de animaciones del array de arriba
     var href = $(this).attr("href"); //esto es el valor de href del sidebar link que has clickado
     var allSections = $("section"); //todos los elementos HTML tipo SECTION
